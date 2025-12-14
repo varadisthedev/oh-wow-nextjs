@@ -12,7 +12,13 @@ export default function Home() {
     </div>
 
     <ExpenseCard title={"this is a card"} amount={1000}/>
-    <AnotherCard amount={100} title={"another card"}/>
+    
+    <div className="grid grid-cols-4 gap-3">
+      <AnotherCard amount={100} title={"another card"}/>
+      <AnotherCard amount={1000} title={"Todays expenses"}/>
+      <AnotherCard amount={50} title={"Remaining Balance"}/>
+      <AnotherCard amount={50} title={"Investments!"}/>
+    </div>
     </>
   );
 }
