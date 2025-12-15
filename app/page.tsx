@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ExpenseCard } from "./components/ExpenseCard";
 import { AnotherCard } from "./components/AnotherCard";
+import { LoginForm } from "./client components/LoginForm";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
       <AnotherCard amount={50} title={"Remaining Balance"}/>
       <AnotherCard amount={50} title={"Investments!"}/>
     </div>
+
+    <LoginForm/>
     </>
   );
 }
