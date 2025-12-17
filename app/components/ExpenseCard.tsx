@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 
 // defining props using ts
 type Props={
