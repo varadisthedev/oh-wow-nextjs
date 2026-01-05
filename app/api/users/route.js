@@ -52,6 +52,7 @@ export async function POST(request) {
   } catch (error) {
     return Response.json({ 
       success: false,
+      expectedfields: ['name', 'email'],
       error: error.message 
     }, { status: 500 });
   }
