@@ -24,6 +24,8 @@ export default function page() {
                         <li key={i}>{i + 1}. {content}</li>
                     ))}
                 </ul>
+
+                <button onClick={FetchUsers} className="btn btn-primary">Refresh Users</button>
             </div>
         </>
     )
