@@ -5,6 +5,7 @@ import { LoginForm } from "./client components/LoginForm";
 import { ProfileTile } from "./components/ProfileTile";
 
 export default function Home() {
+  throw new Error("An intentional error for testing purposes.");
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-gray-900 h-80 w-100 rounded-4xl">
